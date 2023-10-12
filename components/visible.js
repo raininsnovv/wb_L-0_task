@@ -51,10 +51,21 @@ toggleVisible.forEach((item, index) => {
   });
 });
 
-window.addEventListener("resize", (e) => {
+// Сохраняем оригинальные значения в data-атрибуте при загрузке страницы
+itemTitle.forEach((item) => {
+  item.dataset.originalText = item.textContent;
+});
+
+// Обработчик изменения размера окна
+window.addEventListener("resize", () => {
   itemTitle.forEach((item) => {
-    if (item.textContent.length >= 43 && window.innerWidth <= 375) {
-      item.textContent = item.textContent.slice(0, 69) + "...";
+    if (item.dataset.originalText && window.innerWidth <= 375) {
+      // Восстановление оригинального значения, если размер окна меньше или равен 375
+      item.textContent = item.dataset.originalText.slice(0, 69) + "...";
+    }
+    if (item.dataset.originalText && window.innerWidth > 375) {
+      // Восстановление оригинального значения, если размер окна больше 375
+      item.textContent = item.dataset.originalText;
     }
   });
 

@@ -151,6 +151,20 @@ section-sub-container {
   margin-top: 5px;
 }
 
+.price-details .discount-mobile {
+  margin-top: 4px;
+  position: relative;
+}
+
+.price-details .discount-mobile span {
+  font-size: 13px;
+  border-bottom-style: dashed;
+  border-bottom-width: 1px;
+  color: #9797af;
+  text-decoration: line-through;
+  margin-top: 5px;
+}
+
 .cart-icons {
   margin-top: 8px;
 }
@@ -318,6 +332,11 @@ input[type="checkbox"]:checked:after {
   }
 
   .price-details .discount {
+    margin-top: 0;
+    position: relative;
+  }
+
+  .price-details .discount-mobile {
     margin-top: 0;
     position: relative;
   }

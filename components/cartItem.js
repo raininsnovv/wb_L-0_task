@@ -6,7 +6,7 @@ const totalSum = document.querySelector("#totalSum");
 const totalAmount = document.querySelector("#total-amount-items");
 const totalDeliverySum = document.querySelector("#total-delivery-sum");
 const totalDelivery = document.querySelector("#total-delivery");
-const amountDetailsCards = document.querySelectorAll(".amount");
+const amountDetailsCards = document.querySelectorAll(".cart-item");
 
 let buttonDecrement = null;
 let buttonIncrement = null;
@@ -130,6 +130,11 @@ const decrement = (e) => {
         Math.round(item.inCart * item.priceDiscount)
       ).toLocaleString("ru-RU");
 
+      currentCard.querySelector(".price-mobile").firstChild.textContent =
+        Number(Math.round(item.inCart * item.priceDiscount)).toLocaleString(
+          "ru-RU"
+        );
+
       currentCard.querySelector(
         ".discount"
       ).firstChild.nextSibling.firstChild.textContent =
@@ -189,11 +194,22 @@ const increment = (e) => {
         Math.round(item.inCart * item.priceDiscount)
       ).toLocaleString("ru-RU");
 
+      currentCard.querySelector(".price-mobile").firstChild.textContent =
+        Number(Math.round(item.inCart * item.priceDiscount)).toLocaleString(
+          "ru-RU"
+        );
+
       currentCard.querySelector(
         ".discount"
       ).firstChild.nextSibling.firstChild.textContent =
         Number(Math.round(item.inCart * item.price)).toLocaleString("ru-RU") +
         " сом";
+
+        currentCard.querySelector(
+          ".discount-mobile"
+        ).firstChild.nextSibling.firstChild.textContent =
+          Number(Math.round(item.inCart * item.price)).toLocaleString("ru-RU") +
+          " сом";
 
       currentCard.querySelector(
         ".total-discount"
