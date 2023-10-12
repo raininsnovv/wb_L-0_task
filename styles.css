@@ -1,13 +1,13 @@
-@import "/styles/header.css";
-@import "/styles/global-styles.css";
-@import "/styles/cartItems.css";
-@import "/styles/totalCart.css";
-@import "/styles/missingItems.css";
-@import "/styles/wayToGet.css";
-@import "/styles/userData.css";
-@import "/styles/footer.css";
-@import "/styles/hover-modal.css";
-@import "/styles/modal.css";
+@import "https://raininsnovv.github.io/wb_L-0_task/styles/header.css";
+@import "https://raininsnovv.github.io/wb_L-0_task/styles/global-styles.css";
+@import "https://raininsnovv.github.io/wb_L-0_task/styles/cartItems.css";
+@import "https://raininsnovv.github.io/wb_L-0_task/styles/totalCart.css";
+@import "https://raininsnovv.github.io/wb_L-0_task/styles/missingItems.css";
+@import "https://raininsnovv.github.io/wb_L-0_task/styles/wayToGet.css";
+@import "https://raininsnovv.github.io/wb_L-0_task/styles/userData.css";
+@import "https://raininsnovv.github.io/wb_L-0_task/styles/footer.css";
+@import "https://raininsnovv.github.io/wb_L-0_task/styles/hover-modal.css";
+@import "https://raininsnovv.github.io/wb_L-0_task/styles/modal.css";
 
 * {
   margin: 0;
