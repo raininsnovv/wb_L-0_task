@@ -5,7 +5,7 @@
   background-color: #fff;
   border-radius: 16px;
   margin-left: 32px;
-  padding: 15px 24px 24px 24px;
+  padding: 13px 24px 20px 24px;
   position: relative;
   top: -10px;
 }
@@ -48,7 +48,7 @@ h2 {
   background-color: #f6f6fa;
   border-radius: 8px;
   margin-top: 10px;
-  margin-bottom: 22px;
+  margin-bottom: 25px;
 }
 
 .bank-icon {
@@ -101,10 +101,11 @@ h2 {
 @media screen and (max-width: 1024px) {
   .total-cart {
     max-width: 303px;
+    padding:16px 24px 24px 24px;
   }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
   .total-cart {
     max-width: 891px;
     margin: 0;
@@ -113,7 +114,6 @@ h2 {
     box-shadow: none;
     padding: 0 16px;
   }
-
   .way-to-get-container .return-shipping {
     padding: 0 8px;
     padding-bottom: 5.5px;

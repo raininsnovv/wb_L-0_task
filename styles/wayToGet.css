@@ -7,7 +7,7 @@
 .way-to-get {
   background-color: #fff;
   padding: 0;
-  margin: 22px 0 0 0;
+  margin: 20px 0 0 0;
 }
 
 .change-get-items-button button {
@@ -43,7 +43,7 @@
 }
 
 .delivery-method-container {
-  margin-bottom: 18px;
+  margin-bottom: 16px;
 }
 
 .point-of-issue {
@@ -54,7 +54,7 @@
   height: 24px;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1024px) {
   .delivery-method-details {
     margin-bottom: 4px;
   }

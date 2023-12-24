@@ -23,10 +23,9 @@ body {
 main {
   border-radius: 25px;
   background-color: #f6f6fa;
-  padding-bottom: 5px;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
   .flex-wrapper {
     display: block;
   }

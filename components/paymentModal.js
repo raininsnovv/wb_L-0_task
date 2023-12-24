@@ -1,4 +1,4 @@
-const paymentData = [
+ const paymentData = [
   {
     id: 1,
     icon: "./icons/1.svg",
@@ -53,7 +53,7 @@ const renderPaymentModal = () => {
         <div class="payment-modal-flex-container">
           <div>
             <div class="d-flex justify-between align-center">
-              <h2 class="modal-title">Способ оплаты</h2>
+              <h2 style="margin-bottom: 19px;" class="modal-title">Способ оплаты</h2>
               <svg id="close-modal-button" class="change-get-items-button cursor-pointer" width="16" height="15"
                 viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path fill-rule="evenodd" clip-rule="evenodd"

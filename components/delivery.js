@@ -102,7 +102,7 @@ export const renderDeliveryHtml = (items) => {
           ${renderDeliveryItems(items)}
           <div class="return-shipping way-to-get fz-13 d-flex align-center">
             <div class="price-shipping">
-              <svg width="22" height="22" viewBox="0 0 22 22" fill="none">
+              <svg style="margin-bottom: -10px;" width="22" height="22" viewBox="0 0 22 22" fill="none">
                 <path fill-rule="evenodd" clip-rule="evenodd"
                   d="M1 10.9998C1 16.5226 5.47715 20.9998 11 20.9998C16.5228 20.9998 21 16.5226 21 10.9998C21 5.47691 16.5228 0.999756 11 0.999756C5.47715 0.999756 1 5.47691 1 10.9998ZM19.1818 10.9997C19.1818 15.5184 15.5187 19.1816 11 19.1816C6.48128 19.1816 2.81815 15.5184 2.81815 10.9997C2.81815 6.48103 6.48128 2.81791 11 2.81791C15.5187 2.81791 19.1818 6.48103 19.1818 10.9997Z"
                   fill="url(#paint0_linear_7_2382)" />
@@ -123,7 +123,7 @@ export const renderDeliveryHtml = (items) => {
                 </defs>
               </svg>
             </div>
-            <div style="position: relative;font-size: 13px;font-weight: 400;line-height: 16px;">
+            <div style="position: relative;font-size: 13px;font-weight: 400; line-height: 16px;margin-bottom: -6px;">
               Обратная доставка товаров на склад при отказе — <span class="cursor-pointer free-button-hover">бесплатно</span>
               <div class="hover-modal hover-modal-second">
                 Если товары вам не подойдут, мы вернем <br>их обратно на склад — это бесплатно

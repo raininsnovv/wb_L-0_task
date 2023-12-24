@@ -1,0 +1,12 @@
+{
+  "name": "wb_l-0_task",
+  "version": "1.0.0",
+  "description": "https://raininsnovv.github.io/wb_L-0_task/",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

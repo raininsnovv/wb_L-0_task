@@ -28,11 +28,12 @@ footer svg path:hover {
 .footer-title {
   height: 64px;
   line-height: 64px;
+  margin-right: 1px;
 }
 
 .nav-container {
- 
-  padding: 14px;
+
+  padding: 13px;
 }
 
 @media screen and (max-width: 600px) {

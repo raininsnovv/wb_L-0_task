@@ -1,4 +1,4 @@
-import { items, totalSum as sum } from "../data.js";
+ import { items, totalSum as sum } from "../data.js";
 import { renderDeliveryHtml } from "./delivery.js";
 
 const checkAll = document.querySelector(".check-all");

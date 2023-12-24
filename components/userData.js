@@ -98,7 +98,7 @@ const emailFieldValidation = (event) => {
 }
 
 const phoneFieldValidation = (event) => {
-  const regExpPhone = /^\+?\d{1}\s?\d{3}\s?\d{2}\s?\d{2}$/;
+  const regExpPhone = /^\+?\d{1}\s?\d{3}\s?\d{3}-\d{2}-\d{2}$/;
 
   let error = false;
 
@@ -106,7 +106,7 @@ const phoneFieldValidation = (event) => {
     if (event !== 'input') {
       phoneFieldError.style.display = 'block';
       phoneField.classList.add('invalid');
-      phoneFieldError.textContent = 'Формат: +9 999 99 99';
+      phoneFieldError.textContent = 'Формат: +9 999 999-99-99';
     }
     error = true;
   }
@@ -130,6 +130,7 @@ const phoneFieldValidation = (event) => {
     }
   }
 }
+
 
 const innFieldValidation = (event) => {
   const regExpInn = /^\d{14}$/;

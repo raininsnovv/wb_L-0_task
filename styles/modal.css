@@ -34,7 +34,7 @@
 }
 
 .modal .payment-recipient-title {
-  margin-bottom: 14px;
+  margin-bottom: 12px;
 }
 
 .modal-title {
@@ -148,7 +148,7 @@
   height: 365px;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1024px) {
   .modal {
     position: fixed;
     width: 100%;

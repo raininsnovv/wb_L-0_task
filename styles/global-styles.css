@@ -98,7 +98,10 @@
   padding: 0;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1024px) {
+  body{
+    overflow-y: scroll;
+  }
   .mobile-padding {
     padding: 16px 16px 0 16px;
   }
